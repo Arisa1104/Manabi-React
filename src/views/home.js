@@ -166,7 +166,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-full-width-banner section-container">
+        <div className="home-full-width-banner">
           <div className="home-container11">
             <img
               alt="A woman in mustard color sweater working on her laptop."
