@@ -64,7 +64,7 @@ const Home = (props) => {
           <div className="home-container03 max-width-container">
             <div className="home-container04">
               <span className="home-text05">
-                Manabiは一つのサイトで様々な分野の講座を受講できるオンラインの学びコミュニティです。日本はもちろん、世界中から参加していただくことができます。また、世界中の参加者が集って意見や情報を交換できる場も提供します。
+                Manabiは一つのサイトで様々な分野の講座を受講できるオンラインの学びコミュニティです。日本はもちろん、世界中から参加していただくことができます。また、世界中の参加者が集って意見や情報を交換できる場も提供しています。
               </span>
             </div>
           </div>
@@ -184,29 +184,39 @@ const Home = (props) => {
                 <span>メールにてお届けします！</span>
               </span>
             </div>
-            <a
-              href="https://course.weblytics.digital/newsletter"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="home-link4"
-            >
-              <div className="home-btn button">
-                <span className="home-text17">購読する</span>
-              </div>
-            </a>
+            <div className="home-container12">
+              <a
+                href="https://go.manabi.town/newsletter"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link4"
+              >
+                <div className="home-btn button">
+                  <span className="home-text17">購読する</span>
+                </div>
+              </a>
+              <a
+                href="mailto:info@manabi.town?subject=Manabiについて"
+                className="home-link5"
+              >
+                <div className="home-btn1 button">
+                  <span className="home-text18">お問い合わせ</span>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
       <div className="home-footer">
         <div className="max-width-container">
           <footer className="home-footer1">
-            <div className="home-container12">
+            <div className="home-container13">
               <img
                 alt="image"
                 src="/playground_assets/manabi-200h.png"
                 className="home-image2"
               />
-              <span className="home-text18">2023. All rights reserved.</span>
+              <span className="home-text19">2023. All rights reserved.</span>
             </div>
           </footer>
         </div>
