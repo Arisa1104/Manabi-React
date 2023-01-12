@@ -441,15 +441,18 @@
 .home-btn {
   cursor: pointer;
   display: flex;
-  padding: 16px 24px;
   position: relative;
   box-sizing: border-box;
   transition: 0.3s;
   align-items: flex-start;
   flex-shrink: 1;
+  padding-top: var(--dl-space-space-unit);
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
   border-width: 1px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
   background-color: rgba(239, 193, 76, 1);
 }
@@ -475,16 +478,18 @@
 .home-btn1 {
   cursor: pointer;
   display: flex;
-  padding: 16px 24px;
   position: relative;
   box-sizing: border-box;
   transition: 0.3s;
   align-items: flex-start;
   flex-shrink: 1;
+  padding-top: var(--dl-space-space-unit);
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
   border-width: 1px;
-  padding-right: 16px 24px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
   background-color: rgba(239, 193, 76, 1);
 }
