@@ -1,0 +1,30 @@
+.section-heading-section-heading {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.section-heading-text {
+  text-align: center;
+  line-height: 36px;
+  margin-bottom: var(--dl-space-space-unit);
+  letter-spacing: 0.06em;
+}
+.section-heading-text1 {
+  color: var(--dl-color-gray-black60);
+  font-size: 20px;
+  text-align: center;
+  font-family: Zen Maru Gothic;
+  line-height: 24px;
+}
+
+.section-heading-root-class-name1 {
+  margin-top: var(--dl-space-space-threeunits);
+}
+@media(max-width: 991px) {
+  .section-heading-root-class-name1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
