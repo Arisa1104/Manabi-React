@@ -10,19 +10,22 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Manabi by Weblytics</title>
+        <title>Manabi - 学びのためのオンラインコミュニティ</title>
         <meta
           name="description"
-          content="Manabi makes learning easy and fun. With our wide range of online courses, you can be more efficient at work and learn new skills that will make your life more enjoyable."
+          content="Manabiは一つのサイトで様々な分野の講座を受講できるオンラインの学びコミュニティです。日本はもちろん、世界中から参加していただくことができます。また、世界中の参加者が集って意見や情報を交換できる場も提供しています。"
         />
-        <meta property="og:title" content="Manabi by Weblytics" />
+        <meta
+          property="og:title"
+          content="Manabi - 学びのためのオンラインコミュニティ"
+        />
         <meta
           property="og:description"
-          content="Manabi makes learning easy and fun. With our wide range of online courses, you can be more efficient at work and learn new skills that will make your life more enjoyable."
+          content="Manabiは一つのサイトで様々な分野の講座を受講できるオンラインの学びコミュニティです。日本はもちろん、世界中から参加していただくことができます。また、世界中の参加者が集って意見や情報を交換できる場も提供しています。"
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2359627e-30f0-445a-b64d-573076efa250/b1823fec-2b7d-4465-b66a-b1577e4848dd?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2359627e-30f0-445a-b64d-573076efa250/33cadfdd-f2a8-4fb2-8fb0-bb9338a32d08?org_if_sml=1"
         />
       </Helmet>
       <div className="home-navbar">

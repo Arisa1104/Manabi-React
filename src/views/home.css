@@ -313,10 +313,10 @@
 }
 .home-trending-items {
   padding-top: 0px;
+  background-color: var(--dl-color-pallet-green);
 }
 .home-max-width1 {
   position: relative;
-  background-color: var(--dl-color-pallet-green);
 }
 .home-cards-container {
   flex: 0 0 auto;
