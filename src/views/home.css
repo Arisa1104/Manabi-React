@@ -693,6 +693,13 @@
     font-family: Zen Maru Gothic;
     font-weight: 400;
   }
+  .home-container02 {
+    width: 200px;
+    height: 80px;
+  }
+  .home-text04 {
+    font-size: 20px;
+  }
   .home-container04 {
     width: 100%;
     padding: var(--dl-space-space-oneandhalfunits);
@@ -702,6 +709,13 @@
     padding-bottom: var(--dl-space-space-oneandhalfunits);
     background-color: rgba(255, 255, 255, 0.8);
   }
+  .home-container05 {
+    width: 200px;
+    height: 80px;
+  }
+  .home-text06 {
+    font-size: 20px;
+  }
   .home-container07 {
     width: auto;
     padding: var(--dl-space-space-oneandhalfunits);
@@ -709,6 +723,13 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-oneandhalfunits);
     background-color: rgba(255, 255, 255, 0.8);
+  }
+  .home-container08 {
+    width: 200px;
+    height: 80px;
+  }
+  .home-text10 {
+    font-size: 20px;
   }
   .home-container10 {
     width: 100%;
