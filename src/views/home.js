@@ -25,7 +25,7 @@ const Home = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2359627e-30f0-445a-b64d-573076efa250/33cadfdd-f2a8-4fb2-8fb0-bb9338a32d08?org_if_sml=1"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2359627e-30f0-445a-b64d-573076efa250/c65d5cb0-0ab5-4e85-a953-be3a04bb53dd?org_if_sml=1"
         />
       </Helmet>
       <div className="home-navbar">
