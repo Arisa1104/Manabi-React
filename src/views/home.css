@@ -11,7 +11,7 @@
   width: 100%;
   display: flex;
   z-index: 1000;
-  position: fixed;
+  position: relative;
   align-items: center;
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
@@ -59,7 +59,7 @@
 }
 .home-max-width {
   max-width: 85%;
-  margin-top: var(--dl-space-space-fiveunits);
+  margin-top: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-threeunits);
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -584,6 +584,7 @@
   }
   .home-max-width {
     max-width: 90%;
+    margin-top: var(--dl-space-space-threeunits);
   }
   .home-hero1 {
     padding-left: 0px;
@@ -670,6 +671,9 @@
   }
   .home-hero {
     background-position: right;
+  }
+  .home-max-width {
+    margin-top: var(--dl-space-space-threeunits);
   }
   .home-hero1 {
     margin-top: 0px;
